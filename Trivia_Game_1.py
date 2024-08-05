@@ -405,4 +405,58 @@ def trivia_game(current_score,name,categories):
             if question["question"] in question_asked:               
                 print("Question has been already asked. You get zero points")
                 current_score+=0
-            elif answer == question["answer"
+            elif answer == question["answer"] or answer==question["answer"].lower():
+                print("Correct!")
+                current_score += question["score"]
+            elif answer!= question["answer"] or answer!=question["answer"].lower():
+                print("Incorrect. The correct answer is:", question["answer"])
+            else:
+                continue
+               
+ 
+# Capture high score in a file
+def get_high_score():
+    # Default high score
+    high_score = 0
+ 
+    #  read the high score from a file
+    try:
+        high_score_file = open("C:\\Users\\vishw\\Documents\\highscores.txt", "r")
+        high_score = int(high_score_file.read())
+        high_score_file.close()
+       
+    except IOError:
+        # Error reading file, no high score
+        print("There is no high score yet.")
+ 
+    return high_score
+ 
+def save_high_score(new_high_score):
+    high_score_file = open("C:\\Users\\vishw\\Documents\\highscores.txt", "w")
+    high_score_file.write(str(new_high_score))
+    high_score_file.close()
+ 
+def main():
+    # Defining main function where trivia game is called
+    print("Welcome to my Trivia Game!")
+    name=input("Enter your name: ")   
+ 
+    trivia=trivia_game(current_score,name,categories)
+
+    # Print users current score
+    print(f"Hello {name}!Thanks for playing my trivia game!Your score is {current_score}")
+   
+    # Get the high score
+    high_score = get_high_score()  
+ 
+    # See if we have a new high score
+    if current_score > high_score:
+     # if there is a new high score, save to file
+        print("\nCongratulations! This is your new high score!")
+        save_high_score(current_score)
+    
+    
+ 
+ 
+if __name__ == "__main__":
+    main()
