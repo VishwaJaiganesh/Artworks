@@ -201,4 +201,101 @@ questions = [
         "question": "What tectonic plate is between the Pacific and North American Plates",
         "answer": "Juan de Fuca Plate",
         "score":1500
-    }
+    category": "Sports",
+        "difficulty": "Very Easy",
+        "question": "What is the term for scoring 100 runs in Cricket?",
+        "answer": "century",
+        "score":100
+    },
+    {
+        "category": "Sports",
+        "difficulty": "Easy",
+        "question": "Where was 2022 FIFA World Cup held?",
+        "answer": "Qatar",
+        "score":250
+    },
+    {
+        "category": "Sports",
+        "difficulty": "Normal",
+        "question": "Who is world number 1 in Tennis at present?",
+        "answer": "Novak Djokovic",
+        "score":500
+    },
+    {
+        "category": "Sports",
+        "difficulty": "Medium",
+        "question": "Which NBA team has a red bull in its logo?",
+        "answer": "Chicago Bulls",
+        "score":750
+    },
+    {
+        "category": "Sports",
+        "difficulty": "Hard",
+        "question": "Number 1 AFL Club?",
+        "answer": "Collingwood FC",
+        "score":1000
+    },
+    {
+        "category": "Sports",
+        "difficulty": "Very Hard",
+        "question": "Where were the Olympics held in the year 2000?",
+        "answer": "Sydney",
+        "score":1250
+    },
+    {
+        "category": "Sports",
+        "difficulty": "Extreme",
+        "question": "What is the Olympic record for men's 100m freestyle?",
+        "answer": "47.02 seconds",
+        "score":1500
+    },
+     {
+        "category": "Video Games",
+        "difficulty": "Very Easy",
+        "question": "What year did Fortnite release?",
+        "answer": "2017",
+        "score":100
+    },
+    {
+        "category": "Video Games",
+        "difficulty": "Easy",
+        "question": "What is the name of the green mushroom powerup in Mario?",
+        "answer": "1UP",
+        "score":250
+    },
+    {
+        "category": "Video Games",
+        "difficulty": "Normal",
+        "question": "What is the name of the main character in Halo?",
+        "answer": "Masterchief",
+        "score":500
+    },
+    {
+        "category": "Video Games",
+        "difficulty": "Medium",
+        "question": "What are the names of the 2 dwarves in God of War?",
+        "answer": "Sindri and Brok",
+        "score":750
+    },
+    {
+        "category": "Video Games",
+        "difficulty": "Hard",
+        "question": "What is the name of the main villain in Crash Bandicoot?",
+        "answer": "Dr.Neo Cortex",
+        "score":1000
+    },
+    {
+        "category": "Video Games",
+        "difficulty": "Very Hard",
+        "question": "What was the first game Mario appeared in?",
+        "answer": "Donkey Kong",
+        "score":1250
+    },
+    {
+        "category": "Video Games",
+        "difficulty": "Extreme",
+        "question": "How many potions are there in Minecraft?",
+        "answer": "72",                      
+        "score":1500
+    },
+    
