@@ -298,4 +298,92 @@ questions = [
         "answer": "72",                      
         "score":1500
     },
+         {
+        "category": "Music",
+        "difficulty": "Very Easy",
+        "question": "Who is the most streamed artist on Spotify of all time?",
+        "answer": "Drake",
+        "score":100
+    },
+    {
+        "category": "Music",
+        "difficulty": "Easy",
+        "question": "What is the most played instrument of all time?",
+        "answer": "Piano",
+        "score":250
+    },
+    {
+        "category": "Music",
+        "difficulty": "Normal",
+        "question": "What musical family does the drum kit come under?",
+        "answer": "Percussion",
+        "score":500
+    },
+    {
+        "category": "Music",
+        "difficulty": "Medium",
+        "question": "What decade did Tupac die?",
+        "answer": "1990",
+        "score":750
+    },
+    {
+        "category": "Music",
+        "difficulty": "Hard",
+        "question": "Who wrote the song, 'it's now or never'?",
+        "answer": "Elvis Presley",
+        "score":1000
+    },
+   {
+        "category": "Music",
+        "difficulty": "Very Hard",
+        "question": "How many songs are there on the Beatles' album, 'The Yellow Submarine'?",
+        "answer": "13",
+        "score":1250
+    },
+    {
+        "category": "Music",
+        "difficulty": "Extreme",
+        "question": "Which instrument is associated with royalty?",
+        "answer": "Trumpet",
+        "score":1500
+    }
+]
+# Initialize player's score
+current_score=0
+
+def trivia_game(current_score,name,categories):
+ # Start the game   
+# Present each question and evaluate the player's answer
+# Number of rounds being played per player is a user input
+    while True:
+        number_of_rounds=int(input("Please enter number of rounds to play, minimum of 5: "))
+        if number_of_rounds < 5:
+            print("Enter value greater than 5")
+        else:
+            break
+    
+    for i in range (number_of_rounds):
+        # Allow the player to select the category and difficulty level of the questions
+       
+        while True:
+            selected_category = input("Select a category - Geography,History,TV & Movies,Science,Sports,Video Games,Music: \n(Enter 'quit' to end the game): ")
+            #if selected category is in the list of categories, then it is a valid input else force user to enter valid category
+            if selected_category in categories:
+                break
+            else:
+               print("Enter correct category")
+               
+        #if user inputs quit when selecting category, user exits the game
+        if selected_category.lower() == 'quit':
+            print(f"Sorry to see you go {name}!")
+            return
+       
+            
+        while True:
+             #if selected category is in the list of difficulties, then it is a valid input else force user to enter valid difficulty
+            selected_difficulty = input("Select a difficulty level - Very Easy,Easy,Normal,Medium,Hard,Very Hard,Extreme: ")
+            if selected_difficulty in difficulty:
+                break
+            else:
+                print("Enter correct category")    
     
