@@ -387,3 +387,22 @@ def trivia_game(current_score,name,categories):
             else:
                 print("Enter correct category")    
     
+        # Filter questions based on the selected category and difficulty
+        filtered_questions = [question for question in questions if (question["category"] == selected_category or question["category"].lower() == selected_category) and (question["difficulty"] == selected_difficulty or question["difficulty"].lower()== selected_difficulty)]
+ 
+        #capture questions that are asked to user after round 1 in a list questions_asked
+        question_asked=[]
+        for question in filtered_questions:
+            print("\nQuestion:")
+            print(question["question"])
+            if i>0:
+                question_asked.append(question["question"])
+ 
+            answer = input("Your answer: ")
+        # If answer is correct and question is not asked, users score is updated
+        # If answer is correct and question is  asked, users score is updated with value 0
+        # if answer is incorrect, users score is updated with 0
+            if question["question"] in question_asked:               
+                print("Question has been already asked. You get zero points")
+                current_score+=0
+            elif answer == question["answer"
