@@ -103,4 +103,102 @@ questions = [
         "question": "What years were the start and end of the Bubonic Plague?",
         "answer": "1346 to 1353",
          "score":1500
-    }]
+    }
+     {
+        "category": "TV & Movies",
+        "difficulty": "Very Easy",
+        "question": "What is Indian cinema called?",
+        "answer": "Bollywood",
+         "score":100
+    },
+    {
+        "category": "TV & Movies",
+        "difficulty": "Easy",
+        "question": "Which superhero’s name is Hal Jordan?",
+        "answer": "Green Lantern",
+         "score":250
+    },
+    {
+        "category": "TV & Movies",
+        "difficulty": "Normal",
+        "question": "What was considered, 'the world’s scariest movie'?",
+        "answer": "The Exorcist",
+         "score":500
+    },
+    {
+        "category": "TV & Movies",
+        "difficulty": "Medium",
+        "question": "Who was the antagonist of the movie Black Panther?",
+        "answer": "Killmonger",
+        "score":750
+    },
+    {
+        "category": "TV & Movies",
+        "difficulty": "Hard",
+        "question": "What is Voldemort’s real full name?",
+        "answer": "Tom Marvolo Riddle",
+                              "score":1000
+    },
+    {
+        "category": "TV & Movies",
+        "difficulty": "Very Hard",
+        "question": "Which actress plays the main protagonist of the hunger games series?",
+        "answer": "Jennifer Lawrence",
+        "score":1250
+    },
+    {
+        "category": "TV & Movies",
+        "difficulty": "Extreme",
+        "question": "Which Academy Awards ceremony did Will Smith slap Chris Rock?",
+        "answer": "94",
+         "score":1500
+    },
+     {
+        "category": "Science",
+        "difficulty": "Very Easy",
+        "question": "What is the 6th planet from the Sun?",
+        "answer": "Saturn",
+        "score":100
+    },
+    {
+        "category": "Science",
+        "difficulty": "Easy",
+        "question": "What is the name of the body system in charge of the skeleton?",
+        "answer": "Skeletal System",
+         "score":250
+    },
+    {
+        "category": "Science",
+        "difficulty": "Normal",
+        "question": "Who invented the light bulb?",
+        "answer": "Thomas Edison",
+        "score":500
+    },
+    {
+        "category": "Science",
+        "difficulty": "Medium",
+        "question": "What did Alexander Fleming invent?",
+        "answer": "Penicillin",
+                              "score":750
+    },
+    {
+        "category": "Science",
+        "difficulty": "Hard",
+        "question": "What element is Sb?",
+        "answer": "Antimony",
+                              "score":1000
+    },
+    {
+        "category": "Science",
+        "difficulty": "Very Hard",
+        "question": "What is the name of the chemical formula NH3",
+        "answer": "Ammonia",
+                              "score":1250
+    },
+    {
+        "category": "Science",
+        "difficulty": "Extreme",
+        "question": "What tectonic plate is between the Pacific and North American Plates",
+        "answer": "Juan de Fuca Plate",
+        "score":1500
+    }
